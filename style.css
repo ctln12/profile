@@ -1,8 +1,8 @@
 body {
-  background-color: #F7F9FC;
+  background-color: #EAECE4;
   font-family: 'Lora', serif;
-  font-size: 16px;
-  color: #575F7D;
+  font-size: 15px;
+  color: #1B1919;
 }
 
 h1, h2 {
@@ -31,7 +31,7 @@ a {
 }
 
 a:hover {
-  color: #323232;
+  color: #1B1919;
 }
 
 .container {
@@ -55,15 +55,16 @@ a:hover {
 .list-inline > li {
   display: inline;
   padding: 0px 20px;
+  color: #1B1919
 }
 
 .list-inline i {
   font-size: 50px;
-  color: #E6E6E6;
+  color: #EAECE4;
 }
 
 .btn-purple {
-  background-color: #6B72E1;
+  background-color: #616F39;
   padding: 15px 20px;
   border-radius: 5px;
 }
