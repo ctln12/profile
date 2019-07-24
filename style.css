@@ -5,15 +5,24 @@ body {
   color: #1B1919;
 }
 
-h1, h2 {
+h1, h2, h3 {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
-  font-size: 1.3em;
 }
 
 h1 {
   font-size: 2em;
   font-weight: 700;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+h3 {
+  text-align: left;
+  font-size: 1.2em;
+  padding-bottom: 10px;
 }
 
 img {
