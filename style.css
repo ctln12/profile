@@ -10,12 +10,7 @@ body {
 }
 
 .container {
-  padding: 100px 160px 0 160px;
-  margin-top: 80px;
-}
-
-hr {
-  color: black;
+  padding: 120px 160px 120px 160px;
 }
 
 /* NAVBAR */
@@ -57,34 +52,32 @@ li#logo a {
   padding: 10px 25px;
 }
 
+/* SECTIONS */
+.section {
+  min-height: 100vh;
+  border: solid 1px black;
+}
+
+.section h2 {
+  font-family: 'Fredericka the Great', cursive;
+  font-size: 36px;
+}
+
 /* NAME & TITLE */
-.banner {
-  /*padding: 160px 0px 0px 150px;*/
-  margin: 80px 0 0 0;
-  min-height: calc(100vh - 100px);
+#banner {
+  padding-top: 140px;
+  min-height: calc(100vh - 140px);
 }
 
 #name {
   font-family: 'Fredericka the Great', cursive;
   font-size: 48px;
   font-weight: normal;
-  padding-top: 50px;
 }
 
 #title {
   font-size: 36px;
   font-weight: 300;
-}
-
-/* SECTIONS */
-.section {
-  min-height: calc(100vh - 80px);
-  margin: 0;
-}
-
-.section h2 {
-  font-family: 'Fredericka the Great', cursive;
-  font-size: 36px;
 }
 
 /* ABOUT */
