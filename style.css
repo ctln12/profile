@@ -55,7 +55,6 @@ li#logo a {
 /* SECTIONS */
 .section {
   min-height: 100vh;
-  border: solid 1px black;
 }
 
 .section h2 {
