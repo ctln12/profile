@@ -56,8 +56,10 @@ li#logo {
 }
 
 li#logo a {
-  font-family: 'Qwigley', cursive;
-  font-size: 48px;
+  font-family: 'Fredericka the Great', cursive;
+  /*font-family: 'Qwigley', cursive;*/
+  font-size: 40px;
+  /*font-size: 48px;*/
   padding: 10px 25px;
 }
 
