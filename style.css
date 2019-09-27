@@ -38,16 +38,16 @@ ul#navbar {
   display: block;
   padding: 25px 25px;
   text-decoration: none;
-  font-size: 30px;
   color: black;
+  font-size: 30px;
 }
 
 #navbar li a:hover {
   color: #CF0000;
 }
 
-.active, #navbar li a:active {
-  color: #CF0000;
+.active a {
+  color: #CF0000!important;
   font-weight: bold;
 }
 
