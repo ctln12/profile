@@ -87,3 +87,12 @@ li#logo a {
 
 /* PROJECTS */
 /* CONTACT */
+#contact a {
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+#contact a:hover {
+  color: #CF0000;
+}
