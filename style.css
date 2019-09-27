@@ -46,7 +46,7 @@ ul#navbar {
   color: #CF0000;
 }
 
-#navbar li a:active {
+.active, #navbar li a:active {
   color: #CF0000;
   font-weight: bold;
 }
