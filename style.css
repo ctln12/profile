@@ -97,6 +97,16 @@ li#logo a {
 }
 
 /* PROJECTS */
+#projects-cards {
+  padding-top: 20px;
+  display: flex;
+}
+
+.project-img {
+  width: 300px;
+  margin: 10px;
+}
+
 /* CONTACT */
 #contact a {
   color: black;
