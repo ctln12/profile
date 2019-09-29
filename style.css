@@ -10,7 +10,12 @@ body {
 }
 
 .container {
-  padding: 120px 160px 120px 160px;
+  padding: 120px 100px 120px 100px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
 }
 
 /* NAVBAR */
@@ -28,6 +33,7 @@ ul#navbar {
   border-bottom: solid 1px black;
   background-color: white;
   height: 80px;
+  z-index:2;
 }
 
 #navbar li {
@@ -37,8 +43,6 @@ ul#navbar {
 #navbar li a {
   display: block;
   padding: 25px 25px;
-  text-decoration: none;
-  color: black;
   font-size: 30px;
 }
 
@@ -49,6 +53,7 @@ ul#navbar {
 .active a {
   color: #CF0000!important;
   font-weight: bold;
+  padding-top: 20px!important;
 }
 
 li#logo {
@@ -57,9 +62,7 @@ li#logo {
 
 li#logo a {
   font-family: 'Fredericka the Great', cursive;
-  /*font-family: 'Qwigley', cursive;*/
   font-size: 40px;
-  /*font-size: 48px;*/
   padding: 10px 25px;
 }
 
@@ -98,20 +101,73 @@ li#logo a {
 
 /* PROJECTS */
 #projects-cards {
-  padding-top: 20px;
   display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.project-card {
+  position: relative;
+  margin: 20px 20px 20px 20px;
+}
+
+.project-card:hover div.project-info {
+  opacity: 1;
+}
+
+.project-card:hover img.project-img {
+  filter: grayscale(1);
 }
 
 .project-img {
-  width: 300px;
-  margin: 10px;
+  width: 100%;
+  max-width: 380px;
+  min-width: 280px;
+  height: auto;
+}
+
+.project-info {
+  background-color: #151515;
+  color: white;
+  text-align: center;
+  padding: 0px 0px 15px 0px;
+  position: absolute;
+  width: 100%;
+  max-width: 250px;
+  height: auto;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: .5s ease;
+}
+
+.project-info p {
+  font-weight: lighter;
+  font-size: 0.7em;
+}
+
+.project-info h2 {
+  font-size: 16px;
+  letter-spacing: 2px;
+}
+
+.project-info a {
+  color: white;
+  font-size: 0.6em;
+  letter-spacing: 1px;
+  padding: 7px 5px 5px 5px;
+  transition: .5s ease;
+}
+
+.project-info a:hover {
+  color: #CF0000;
 }
 
 /* CONTACT */
 #contact a {
-  color: black;
   font-weight: bold;
-  text-decoration: none;
 }
 
 #contact a:hover {
