@@ -1,5 +1,4 @@
-const sections = document.querySelectorAll('.sections');
-console.log(sections);
+const sections = document.querySelectorAll('#navbar li');
 
 sections.forEach((item) => {
 
