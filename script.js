@@ -1,4 +1,3 @@
-alert("HELLO");
 // const sections = document.querySelectorAll(".sections");
 // console.log(sections.forEach(
 //   (item) => {
