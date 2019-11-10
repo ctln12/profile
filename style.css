@@ -39,7 +39,7 @@ h1, h2, h3, h6 {
 }
 
 div.banner {
-  background-color: rgba(0, 0, 0, 0.35);
+  background-color: rgba(0, 0, 0, 0.4);
   color: white;
   padding: 2rem;
   position: absolute;
@@ -50,8 +50,15 @@ div.banner {
 
 .btn-success {
   background-color: #FF4D00;
+  color: white;
   border: 1px solid #FF4D00;
   margin-top: 10px;
+}
+
+.btn-success:hover {
+  background-color: white;
+  color: #FF4D00;
+  border: 1px solid #FF4D00;
 }
 
 /* PROFESSIONAL SKILLS */
