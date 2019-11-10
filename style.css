@@ -47,7 +47,12 @@ div.banner {
 }
 
 /* PROFESSIONAL SKILLS */
+img.skills {
+  height: 100px;
+  margin-bottom: 10px;
+}
 
+/* WEB DEVELOPMENT PROJECTS */
 
 
 
