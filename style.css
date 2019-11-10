@@ -91,26 +91,20 @@ div#webprojects {
   list-style: none;
 }
 
+/* NEXT SECTION */
 
 
 
 
 
+/* FOOTER */
+div#footer {
+  background-color: #333940;
+  color: white;
+  padding-top: 1.4rem;
+  padding-bottom: 1.4rem;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+blockquote {
+  font-size: 1.1rem !important;
+}
