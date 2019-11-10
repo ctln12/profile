@@ -8,18 +8,18 @@ body {
   margin: 0;
 }
 
-.title-700 {
+h1, h2, h3, h6 {
   font-family: Dosis, sans-serif;
-  font-weight: 700;
 }
-.subtitle-600 {
-  font-family: Dosis, sans-serif;
-  font-weight: 600;
+
+.title {
+  font-weight: 700;
+  margin-bottom: 40px;
 }
 
 /* NAVBAR */
 
-/* HOME SECTION */
+/* BANNER */
 #home {
   padding: 0;
   background-image: url('images/banner.jpg');
@@ -28,6 +28,14 @@ body {
   background-size: cover;
   height: 100vh;
   position: relative;
+}
+
+#home h1 {
+  font-weight: 700;
+}
+
+#home h2 {
+  font-weight: 600;
 }
 
 div.banner {
@@ -53,15 +61,28 @@ img.skills {
 }
 
 /* WEB DEVELOPMENT PROJECTS */
+div#webprojects {
+  background-color: rgba(237, 248, 255, .4);
+}
 
+#webprojects h3 {
+  font-weight: 600;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
 
+#webprojects h3 a {
+  color: #3CA7E2;
+}
 
+#webprojects h3 a:hover {
+  text-decoration: none;
+  color: #0081C7;
+}
 
-
-
-
-
-
+#webprojects ul {
+  list-style: none;
+}
 
 
 
