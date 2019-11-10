@@ -1,4 +1,4 @@
-/*<link href="https://fonts.googleapis.com/css?family=Bitter:400,700|Dosis:400,700&display=swap" rel="stylesheet">*/
+/*<link href="https://fonts.googleapis.com/css?family=Bitter:400,700|Dosis:400,600,700&display=swap" rel="stylesheet">*/
 /*font-family: Dosis, sans-serif; // header
 font-family: Bitter, serif; // text*/
 
@@ -8,113 +8,76 @@ body {
   margin: 0;
 }
 
+.title-700 {
+  font-family: Dosis, sans-serif;
+  font-weight: 700;
+}
+.subtitle-600 {
+  font-family: Dosis, sans-serif;
+  font-weight: 600;
+}
+
 /* NAVBAR */
 
-/* SECTIONS */
-.section {
-  min-height: 100vh;
-}
-
-.section h2 {
-  font-family: 'Fredericka the Great', cursive;
-  font-size: 36px;
-}
-
-/* NAME & TITLE */
-#banner {
-  padding-top: 140px;
-  min-height: calc(100vh - 140px);
-}
-
-#name {
-  font-family: 'Fredericka the Great', cursive;
-  font-size: 48px;
-  font-weight: normal;
-}
-
-#title {
-  font-size: 36px;
-  font-weight: 300;
-}
-
-/* ABOUT */
-#photo {
-  height: 160px;
-  border-radius: 10px;
-}
-
-/* PROJECTS */
-#projects-cards {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-}
-
-.project-card {
+/* HOME SECTION */
+#home {
+  padding: 0;
+  background-image: url('images/banner.jpg');
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  height: 100vh;
   position: relative;
-  margin: 20px 20px 20px 20px;
 }
 
-.project-card:hover div.project-info {
-  opacity: 1;
-}
-
-.project-card:hover img.project-img {
-  filter: grayscale(1);
-}
-
-.project-img {
-  width: 100%;
-  max-width: 380px;
-  min-width: 280px;
-  height: auto;
-}
-
-.project-info {
-  background-color: #151515;
+div.banner {
+  background-color: rgba(0, 0, 0, 0.35);
   color: white;
-  text-align: center;
-  padding: 0px 0px 15px 0px;
+  padding: 2rem;
   position: absolute;
-  width: 100%;
-  max-width: 250px;
-  height: auto;
   top: 50%;
   left: 50%;
-  -ms-transform: translate(-50%, -50%);
-  -webkit-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  opacity: 0;
-  transition: .5s ease;
+  transform: translate(-50%,-50%);
 }
 
-.project-info p {
-  font-weight: lighter;
-  font-size: 0.7em;
+.btn-success {
+  background-color: #FF4D00;
+  border: 1px solid #FF4D00;
+  margin-top: 10px;
 }
 
-.project-info h2 {
-  font-size: 16px;
-  letter-spacing: 2px;
-}
+/* PROFESSIONAL SKILLS */
 
-.project-info a {
-  color: white;
-  font-size: 0.6em;
-  letter-spacing: 1px;
-  padding: 7px 5px 5px 5px;
-  transition: .5s ease;
-}
 
-.project-info a:hover {
-  color: #CF0000;
-}
 
-/* CONTACT */
-#contact a {
-  font-weight: bold;
-}
 
-#contact a:hover {
-  color: #CF0000;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
