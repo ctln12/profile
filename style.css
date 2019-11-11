@@ -1,6 +1,4 @@
-/*<link href="https://fonts.googleapis.com/css?family=Bitter:400,700|Dosis:400,600,700&display=swap" rel="stylesheet">*/
-/*font-family: Dosis, sans-serif; // header
-font-family: Bitter, serif; // text*/
+/* family=Bitter:400,700 | Dosis:400,600,700*/
 
 /* GLOBAL */
 body {
@@ -91,11 +89,49 @@ div#webprojects {
   list-style: none;
 }
 
+/* CONTACT */
+div#contact {
+  min-height: 400px;
+}
+
+#contact a {
+  font-size: 5rem;
+}
+
+#contact p {
+  font-size: 1rem;
+  color: black;
+}
+
+#contact a:hover {
+  text-decoration: none;
+}
+
+.fa-at {
+  color: #FF4D00;
+}
+
+.fa-at:hover {
+  color: #CC2500;
+}
+
+.fa-linkedin {
+  color: #006099;
+}
+
+.fa-linkedin:hover {
+  color: #003A70;
+}
+
+.fa-github {
+  color: black;
+}
+
+.fa-github:hover {
+  color: #3D3D3D;
+}
+
 /* NEXT SECTION */
-
-
-
-
 
 /* FOOTER */
 div#footer {
