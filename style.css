@@ -15,6 +15,10 @@ h1, h2, h3, h6 {
   margin-bottom: 40px;
 }
 
+.section-padding {
+  padding-top: 7rem;
+}
+
 /* NAVBAR */
 
 /* BANNER */
@@ -91,7 +95,7 @@ div#webprojects {
 
 /* CONTACT */
 div#contact {
-  min-height: 400px;
+  min-height: 500px;
 }
 
 #contact a {
