@@ -53,10 +53,6 @@ div.banner {
   margin: 0;
 }
 
-#home div.col-1 {
-  /*margin: 1rem;*/
-}
-
 .btn-outline-light:hover {
   text-shadow: none;
 }
@@ -75,13 +71,13 @@ div.banner {
 
 a.scroll {
   color: white;
-  /*position: absolute;*/
   bottom: 0;
 }
 
 a.scroll:hover {
   text-decoration: none;
-  color: #333940;
+  color: #ffbf00;
+  text-shadow: 1px 1px 10px black;
 }
 
 .scroll p {
