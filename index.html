@@ -12,7 +12,7 @@
     <!-- FONT AWESOME -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
 
-    <title>Cataline Baert</title>
+    <title>Portfolio</title>
   </head>
   <body>
 
@@ -20,7 +20,7 @@
   <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
     <div class="container-fluid">
     <!-- brand -->
-    <a href="#home" class="navbar-brand">cb</a>
+    <a href="#home" class="navbar-brand">Cataline Baert</a>
     <!-- toggle -->
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarItems">
       <span class="navbar-toggler-icon"></span>
@@ -31,9 +31,9 @@
         <li class="nav-item">
           <a href="#home" class="nav-link">Home</a>
         </li>
-        <li class="nav-item">
+        <!-- <li class="nav-item">
           <a href="#professional" class="nav-link">Skills</a>
-        </li>
+        </li> -->
         <li class="nav-item">
           <a href="#webprojects" class="nav-link">Projects</a>
         </li>
@@ -46,17 +46,33 @@
   </nav>
 
   <!---------------- BANNER ---------------->
-  <div id="home" class="container-fluid">
-    <div class="banner">
-      <h1>Welcome!</h1>
-      <h2>My name is Cataline.</h2>
-      <h2>I'm a junior web developer.</h2>
-      <a href="#professional" class="btn btn-success">Discover More</a>
+  <div id="home" class="container-fluid text-center">
+    <div class="row align-items-center banner">
+      <div class="col-12">
+        <h1 class="black-shadow">Junior Full Stack Developer</h1>
+        <h2 class="black-shadow">Geneva, Switzerland</h2>
+        <div class="row justify-content-center">
+          <div class="col-1">
+            <a href="#webprojects" class="btn btn-outline-light mt-2 black-shadow btn-shadow">Projects</a>
+          </div>
+          <div class="col-1">
+            <a download href="Cataline-Baert-CV.pdf" class="btn btn-success mt-2 btn-shadow" target="_blank">Resume</a>
+          </div>
+        </div>
+      </div>
     </div>
+    <div class="row align-items-end" style="margin: 0;">
+      <div class="col-12">
+        <a class="scroll black-shadow" href="#webprojects"><p>scroll</p><i class="fas fa-chevron-down"></i></a>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid text-center">
+
   </div>
 
   <!---------- PROFESSIONAL SKILLS --------->
-  <div id="professional" class="container-fluid text-center section-padding">
+  <!-- <div id="professional" class="container-fluid text-center section-padding">
     <h2 class="title">PROFESSIONAL SKILLS</h2>
     <div class="row mb-4">
       <div class="col-4">
@@ -100,7 +116,7 @@
         <p>Figma</p>
       </div>
     </div>
-  </div>
+  </div> -->
 
   <!------- WEB DEVELOPMENT PROJECTS ------>
   <div id="webprojects" class="container-fluid text-center section-padding">

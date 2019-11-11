@@ -19,17 +19,25 @@ h1, h2, h3, h6 {
   padding-top: 7rem;
 }
 
+.black-shadow {
+  text-shadow: 1px 1px 10px black;
+}
+
+.btn-shadow {
+  box-shadow: 1px 1px 10px black;
+}
+
 /* NAVBAR */
 
 /* BANNER */
 #home {
   padding: 0;
-  background-image: url('images/banner.jpg');
+  background-image: url(images/banner.jpg);
   background-repeat: no-repeat;
-  background-position: top;
+  background-position: center;
   background-size: cover;
   height: 100vh;
-  position: relative;
+  color: white;
 }
 
 #home h1 {
@@ -41,26 +49,43 @@ h1, h2, h3, h6 {
 }
 
 div.banner {
-  background-color: rgba(0, 0, 0, 0.4);
-  color: white;
-  padding: 2rem;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%,-50%);
+  height: 94vh;
+  margin: 0;
+}
+
+#home div.col-1 {
+  /*margin: 1rem;*/
+}
+
+.btn-outline-light:hover {
+  text-shadow: none;
 }
 
 .btn-success {
   background-color: #FF4D00;
   color: white;
   border: 1px solid #FF4D00;
-  margin-top: 10px;
 }
 
 .btn-success:hover {
   background-color: white;
   color: #FF4D00;
-  border: 1px solid #FF4D00;
+  border: 1px solid white;
+}
+
+a.scroll {
+  color: white;
+  /*position: absolute;*/
+  bottom: 0;
+}
+
+a.scroll:hover {
+  text-decoration: none;
+  color: #333940;
+}
+
+.scroll p {
+  margin-bottom: 0;
 }
 
 /* PROFESSIONAL SKILLS */
