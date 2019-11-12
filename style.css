@@ -12,7 +12,7 @@ h1, h2, h3, h6 {
 
 .title {
   font-weight: 700;
-  margin-bottom: 40px;
+  margin-bottom: 70px;
 }
 
 .section-padding {
@@ -112,8 +112,8 @@ a.scroll:hover {
 
 /* PROFESSIONAL SKILLS */
 img.skills {
-  height: 100px;
-  margin-bottom: 10px;
+  height: 50px;
+  margin-bottom: 20px;
 }
 
 /* WEB DEVELOPMENT PROJECTS */
@@ -142,7 +142,7 @@ div#contact {
 }
 
 #contact a {
-  font-size: 5rem;
+  font-size: 3rem;
 }
 
 #contact p {
@@ -177,8 +177,6 @@ div#contact {
 .fa-github:hover {
   color: #3D3D3D;
 }
-
-/* NEXT SECTION */
 
 /* FOOTER */
 div#footer {
