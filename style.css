@@ -117,10 +117,6 @@ img.skills {
 }
 
 /* WEB DEVELOPMENT PROJECTS */
-div#webprojects {
-  background-color: rgba(237, 248, 255, .4);
-}
-
 #webprojects h3 {
   font-weight: 600;
   padding-top: 20px;
