@@ -1,18 +1,24 @@
 /* family=Bitter:400,700 | Dosis:400,600,700*/
 
-/* GLOBAL */
+/*----------------- GLOBAL -----------------*/
 body {
   font-family: Bitter, serif;
   margin: 0;
 }
 
-h1, h2, h3, h6 {
+h1, h2, h3, h4, h5, h6 {
   font-family: Dosis, sans-serif;
 }
 
 .title {
   font-weight: 700;
   /*margin-bottom: 70px;*/
+}
+
+hr {
+  width: 15%;
+  border: 4px solid darkorange;
+  border-radius: 10px;
 }
 
 .section-padding {
@@ -36,9 +42,7 @@ h1, h2, h3, h6 {
   box-shadow: 1px 1px 10px black;
 }
 
-/* NAVBAR */
-
-/* BANNER */
+/*------------------- BANNER ---------------*/
 #home {
   padding: 0;
   background-image: url(images/banner.jpg);
@@ -125,36 +129,102 @@ a.scroll:hover {
   100% {left:0px; top:2px;}
 }
 
-/* MY PROFESSIONAL JOURNEY */
+/*--------- MY PROFESSIONAL JOURNEY --------*/
+#professional h3 {
+   color: #9A9A9A;
+}
 
+#professional .fa-chevron-down {
+  color: darkorange;
+}
 
-/* PROFESSIONAL SKILLS */
+/*----------- PROFESSIONAL SKILLS ----------*/
 img.skills {
   height: 30px;
   margin-bottom: 20px;
 }
 
-/* WEB DEVELOPMENT PROJECTS */
-#webprojects h3 {
+/*--------- WEB DEVELOPMENT PROJECTS -------*/
+#webprojects.section-container {
+  width: 70%;
+}
+
+#webprojects img {
+  height:275px;
+}
+
+#webprojects .back h5 {
+  padding-top: 1.5rem;
+  padding-bottom: 1rem;
   font-weight: 600;
-  padding-top: 20px;
-  padding-bottom: 20px;
 }
 
-#webprojects h3 a {
-  color: #3CA7E2;
+#webprojects .back span {
+  color: darkorange;
 }
 
-#webprojects h3 a:hover {
-  text-decoration: none;
-  color: #0081C7;
+#webprojects .back p {
+  margin-bottom: 0.5rem;
 }
 
-#webprojects ul {
-  list-style: none;
+#webprojects .back > p:last-child {
+  margin-top: 1.3rem;
+  font-size: 1.2rem;
 }
 
-/* CONTACT */
+#webprojects .back a {
+  color: black;
+}
+
+#webprojects .back a .fa-eye {
+  padding-right: 5px;
+}
+
+.fa-eye:hover {
+  color: darkorange;
+}
+
+.flip-container, .front, .back {
+  width: 300px;
+  height: 300px;
+}
+
+.flip-container {
+  -webkit-perspective: 1000;
+}
+
+.flip-container .back {
+  -webkit-transform:rotateY(180deg);
+}
+
+.front {
+  z-index: 1;
+  background-color: darkorange;
+  color: #4C423A;
+}
+
+.back {
+  background-color: #4C423A;
+  color: white;
+}
+
+.front, .back {
+  -webkit-backface-visibility: hidden;
+  position: absolute;
+}
+
+.flip-container:hover .flipper {
+  -webkit-transform: rotateY(180deg);
+}
+
+.flipper {
+  -webkit-transition: 1s;
+  -webkit-transform-style: preserve-3d;
+  position: relative;
+}
+
+
+/*----------------- CONTACT ----------------*/
 div#contact {
   min-height: 500px;
 }
@@ -188,7 +258,7 @@ div#contact {
   color: darkorange;
 }
 
-/* FOOTER */
+/*------------------ FOOTER ----------------*/
 div#footer {
   background-color: #333940;
   color: white;
