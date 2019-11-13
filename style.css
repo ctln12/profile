@@ -12,11 +12,20 @@ h1, h2, h3, h6 {
 
 .title {
   font-weight: 700;
-  margin-bottom: 70px;
+  /*margin-bottom: 70px;*/
 }
 
 .section-padding {
-  padding-top: 7rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.section-container {
+  width: 50%;
+}
+
+.section-bg {
+  background-color: #f8f8f8;
 }
 
 .black-shadow {
@@ -36,7 +45,7 @@ h1, h2, h3, h6 {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  height: 100vh;
+  height: 95vh;
   color: white;
 }
 
@@ -49,23 +58,29 @@ h1, h2, h3, h6 {
 }
 
 div.banner {
-  height: 94vh;
+  height: 89vh;
   margin: 0;
 }
 
-.btn-outline-light:hover {
-  text-shadow: none;
+.btn-light {
+  color: #4C423A;
+}
+
+.btn-light:hover {
+  color: white;
+  background-color: #4C423A;
+  border-color: #4C423A;
 }
 
 .btn-success {
-  background-color: #FF4D00;
+  background-color: darkorange;
   color: white;
-  border: 1px solid #FF4D00;
+  border: 1px solid darkorange;
 }
 
 .btn-success:hover {
   background-color: white;
-  color: #FF4D00;
+  color: darkorange;
   border: 1px solid white;
 }
 
@@ -110,9 +125,12 @@ a.scroll:hover {
   100% {left:0px; top:2px;}
 }
 
+/* MY PROFESSIONAL JOURNEY */
+
+
 /* PROFESSIONAL SKILLS */
 img.skills {
-  height: 50px;
+  height: 30px;
   margin-bottom: 20px;
 }
 
@@ -155,27 +173,19 @@ div#contact {
 }
 
 .fa-at {
-  color: #FF4D00;
-}
-
-.fa-at:hover {
-  color: #CC2500;
+  color: #4C423A;
 }
 
 .fa-linkedin {
   color: #006099;
 }
 
-.fa-linkedin:hover {
-  color: #003A70;
-}
-
 .fa-github {
   color: black;
 }
 
-.fa-github:hover {
-  color: #3D3D3D;
+.fa-at:hover, .fa-linkedin:hover,.fa-github:hover {
+  color: darkorange;
 }
 
 /* FOOTER */
